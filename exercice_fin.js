@@ -18,3 +18,31 @@ console.log (` Bonjour ${personne2}, ton prénom contient ${longueurPrenom2} let
 personne3 = personne3[2].toUpperCase() + personne3.substring(1);
 const longueurPrenom3 = personne3.length;
 console.log (` Bonjour ${personne3}, ton prénom contient ${longueurPrenom3} lettres`)
+
+
+
+
+// correction plus bas
+
+
+
+
+
+
+
+//variable de différentes personnes
+ personne1 = "Solange";
+ personne2 = "Paul";
+ personne3 = "Athanagor";
+
+function saluer(prenom){
+  //On met la première lettre en majuscule, on salue la personne et on donne le nombre de lettre dans son prénom
+  const monPrenom = prenom[0].toUpperCase() + prenom.substr(1);
+  const longueurPrenom = monPrenom.length;
+  console.log(`Bonjour ${monPrenom}, ton prénom contient ${longueurPrenom} lettres`);
+}
+
+//On salue les 3 personnes
+saluer(personne1);
+saluer(personne2);
+saluer(personne3);
