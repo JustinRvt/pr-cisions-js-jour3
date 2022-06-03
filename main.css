@@ -1,0 +1,28 @@
+.rouge {
+    color:red;
+}
+
+.vert {
+    color:green;
+}
+
+.flex {
+    display:flex;
+}
+
+.mg-2 {
+    margin:2%;
+}
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+.active {
+    text-decoration: dashed;
+    font-weight: bold;
+    color:blue;
+    border-bottom: 1px solid red;
+}
