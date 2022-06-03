@@ -1,3 +1,4 @@
+// rajouter des méthodes d'instances aux classes
 class CompteEnBanque {
     constructor(titulaire, solde) {
         this.titulaire = titulaire;
